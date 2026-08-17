@@ -1,18 +1,32 @@
 cff-version: 1.2.0
-message: "Gesture-RecognitionProject"
-title: "Gesture-RecognitionProject"
+message: "If you use this software, please cite it as below."
+title: "Gesture Recognition"
+type: software
 version: 1.0.0
-doi: 10.5281/zenodo.1234567   # optional if linked to Zenodo
+doi: 10.5281/zenodo.17444323
 date-released: 2025-10-25
 authors:
   - family-names: Vishnoi
     given-names: Nitin
-    affiliation: ""
     orcid: "https://orcid.org/0009-0000-5871-9307"
-repository-code: "https://github.com/nitvishnoi/Gesture-RecognitionProject/"
+repository-code: "https://github.com/nitvishnoi/Gesture-RecognitionProject"
+license: CC-BY-4.0
 keywords:
-  - AI
-  - Embedded Systems
-  - Gesture Recognition
-license: MIT
-abstract: "This repository contains the source code and datasets for [Gesture-RecognitionProject]."
+  - gesture recognition
+  - video classification
+  - deep learning
+  - computer vision
+  - human-computer interaction
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.17444323
+    description: "Concept DOI - always resolves to the latest version"
+  - type: doi
+    value: 10.5281/zenodo.17444324
+    description: "DOI for version 1.0.0"
+abstract: >-
+  Deep learning models for recognising hand gestures from short video
+  sequences, covering data preprocessing, frame sampling, and comparative
+  evaluation of candidate architectures. REPLACE THIS SENTENCE with the
+  specifics - which architectures you compared, the dataset used, and the
+  accuracy you reached.
